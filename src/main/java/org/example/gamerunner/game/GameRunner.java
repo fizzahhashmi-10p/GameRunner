@@ -1,8 +1,8 @@
 package org.example.gamerunner.game;
 
 public class GameRunner {
-    MarioGame game;
-    public GameRunner(MarioGame game) {
+    GameConsole game;
+    public GameRunner(GameConsole game) {
         this.game = game;
     }
 
@@ -10,5 +10,7 @@ public class GameRunner {
         System.out.println("Running Game: "+game);
         game.up();
         game.right();
+        game.down();
+        game.left();
     }
 }
