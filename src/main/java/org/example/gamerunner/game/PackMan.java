@@ -1,5 +1,8 @@
 package org.example.gamerunner.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PackMan implements GameConsole{
         public void up(){
             System.out.println("Up");
